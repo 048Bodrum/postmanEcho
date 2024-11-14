@@ -16,6 +16,6 @@ class PostmanechoTest {
                 .post("/post")
                 .then().log().all()
                 .statusCode(200)
-                .body("data", org.hamcrest.Matchers.equalTo("netology"));
+                .body("data", org.hamcrest.Matchers.equalTo("work"));
     }
 }
